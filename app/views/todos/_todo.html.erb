@@ -1,0 +1,4 @@
+<li id="<%= dom_id todo %>" class="py-3">
+  <%= todo.title %>
+  <%= button_to "Delete", todo_path(todo), method: :delete, class: "bg-red-50 px-3 py-2 rounded inline-flex items-center justify-center text-red-600" %>
+</li>
